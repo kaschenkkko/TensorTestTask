@@ -1,0 +1,69 @@
+2024-11-12 19:40:23,553, INFO, Открытие страницы https://sbis.ru/, base_page.py, open
+2024-11-12 19:40:24,467, INFO, Переход к разделу "Контакты", sbis_page.py, click_contacts
+2024-11-12 19:40:24,467, DEBUG, Клик на элемент с локатором ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, click_element
+2024-11-12 19:40:24,468, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:40:25,207, DEBUG, Поиск элемента с локатором ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, find_element
+2024-11-12 19:40:25,597, INFO, Элемент найден: ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, find_element
+2024-11-12 19:40:26,385, INFO, Выполнен клик по элементу: ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, click_element
+2024-11-12 19:40:26,386, INFO, Выполнен переход к разделу "Контакты", sbis_page.py, click_contacts
+2024-11-12 19:40:26,386, INFO, Переход на сайт "tensor.ru" через клик по баннеру, sbis_page.py, click_tensor_banner
+2024-11-12 19:40:26,386, DEBUG, Клик на элемент с локатором ('xpath', "//a[contains(@class, 'sbisru-Contacts__logo-tensor') and contains(@title, 'tensor.ru')]"), base_page.py, click_element
+2024-11-12 19:40:26,386, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:40:26,932, DEBUG, Поиск элемента с локатором ('xpath', "//a[contains(@class, 'sbisru-Contacts__logo-tensor') and contains(@title, 'tensor.ru')]"), base_page.py, find_element
+2024-11-12 19:40:26,940, INFO, Элемент найден: ('xpath', "//a[contains(@class, 'sbisru-Contacts__logo-tensor') and contains(@title, 'tensor.ru')]"), base_page.py, find_element
+2024-11-12 19:40:26,969, INFO, Выполнен клик по элементу: ('xpath', "//a[contains(@class, 'sbisru-Contacts__logo-tensor') and contains(@title, 'tensor.ru')]"), base_page.py, click_element
+2024-11-12 19:40:26,976, INFO, Выполнен переход на сайт "tensor.ru", в новой вкладке, sbis_page.py, click_tensor_banner
+2024-11-12 19:40:26,976, INFO, Проверка наличия блока "Сила в людях", tensor_page.py, is_people_power_block_present
+2024-11-12 19:40:26,976, DEBUG, Проверка наличия блока "Сила в людях" в элементе ('xpath', "//p[contains(@class, 'tensor_ru-Index__card-title') and text()='Сила в людях']"), tensor_page.py, is_people_power_block_present
+2024-11-12 19:40:26,976, DEBUG, Поиск элемента с локатором ('xpath', "//p[contains(@class, 'tensor_ru-Index__card-title') and text()='Сила в людях']"), base_page.py, find_element
+2024-11-12 19:40:29,058, INFO, Элемент найден: ('xpath', "//p[contains(@class, 'tensor_ru-Index__card-title') and text()='Сила в людях']"), base_page.py, find_element
+2024-11-12 19:40:29,064, INFO, Блок "Сила в людях" присутствует в элементе ('xpath', "//p[contains(@class, 'tensor_ru-Index__card-title') and text()='Сила в людях']"), tensor_page.py, is_people_power_block_present
+2024-11-12 19:40:29,065, INFO, Переход в раздел "Подробнее", tensor_page.py, click_more_link
+2024-11-12 19:40:29,065, DEBUG, Клик на элемент с локатором ('xpath', "//a[contains(@class, 'tensor_ru-link tensor_ru-Index__link') and text()='Подробнее' and @href='/about']"), base_page.py, click_element
+2024-11-12 19:40:29,065, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:40:29,605, DEBUG, Поиск элемента с локатором ('xpath', "//a[contains(@class, 'tensor_ru-link tensor_ru-Index__link') and text()='Подробнее' and @href='/about']"), base_page.py, find_element
+2024-11-12 19:40:29,612, INFO, Элемент найден: ('xpath', "//a[contains(@class, 'tensor_ru-link tensor_ru-Index__link') and text()='Подробнее' and @href='/about']"), base_page.py, find_element
+2024-11-12 19:40:30,843, INFO, Выполнен клик по элементу: ('xpath', "//a[contains(@class, 'tensor_ru-link tensor_ru-Index__link') and text()='Подробнее' and @href='/about']"), base_page.py, click_element
+2024-11-12 19:40:30,843, INFO, Выполнен переход в раздел "Подробнее", tensor_page.py, click_more_link
+2024-11-12 19:40:30,845, INFO, Проверка размеров изображений в разделе "Работаем", tensor_page.py, check_image_dimensions
+2024-11-12 19:40:30,858, INFO, Все изображения имеют одинаковый размер, tensor_page.py, check_image_dimensions
+2024-11-12 19:40:41,788, INFO, Открытие страницы https://sbis.ru/, base_page.py, open
+2024-11-12 19:40:42,726, INFO, Переход к разделу "Контакты", sbis_page.py, click_contacts
+2024-11-12 19:40:42,726, DEBUG, Клик на элемент с локатором ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, click_element
+2024-11-12 19:40:42,726, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:40:43,300, DEBUG, Поиск элемента с локатором ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, find_element
+2024-11-12 19:40:43,594, INFO, Элемент найден: ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, find_element
+2024-11-12 19:40:44,822, INFO, Выполнен клик по элементу: ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, click_element
+2024-11-12 19:40:44,822, INFO, Выполнен переход к разделу "Контакты", sbis_page.py, click_contacts
+2024-11-12 19:40:44,822, INFO, Получение региона, sbis_page.py, get_region
+2024-11-12 19:40:44,822, DEBUG, Поиск элемента с локатором ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:40:44,832, INFO, Элемент найден: ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:40:44,838, INFO, Получен регион Тюменская обл., sbis_page.py, get_region
+2024-11-12 19:40:44,844, INFO, Получение первого партнера из списка, sbis_page.py, get_partner
+2024-11-12 19:40:44,950, INFO, Получен первый партнер из списка СБИС - Тюмень, sbis_page.py, get_partner
+2024-11-12 19:40:44,954, INFO, Открытие панели выбора региона, sbis_page.py, change_region
+2024-11-12 19:40:44,954, DEBUG, Клик на элемент с локатором ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, click_element
+2024-11-12 19:40:44,954, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:40:44,956, DEBUG, Поиск элемента с локатором ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:40:44,961, INFO, Элемент найден: ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:40:45,179, INFO, Выполнен клик по элементу: ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, click_element
+2024-11-12 19:40:45,702, INFO, Панель выбора региона загружена и готова к взаимодействию, sbis_page.py, change_region
+2024-11-12 19:40:45,703, DEBUG, Выбор необходимого региона, sbis_page.py, change_region
+2024-11-12 19:40:45,703, DEBUG, Клик на элемент с локатором ('xpath', "//h5[contains(@class, 'sbisru-h5 sbis_ru-Region-Panel')]"), base_page.py, click_element
+2024-11-12 19:40:45,703, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:40:45,704, DEBUG, Поиск элемента с локатором ('xpath', "//h5[contains(@class, 'sbisru-h5 sbis_ru-Region-Panel')]"), base_page.py, find_element
+2024-11-12 19:40:45,710, INFO, Элемент найден: ('xpath', "//h5[contains(@class, 'sbisru-h5 sbis_ru-Region-Panel')]"), base_page.py, find_element
+2024-11-12 19:40:45,920, INFO, Выполнен клик по элементу: ('xpath', "//h5[contains(@class, 'sbisru-h5 sbis_ru-Region-Panel')]"), base_page.py, click_element
+2024-11-12 19:40:45,920, DEBUG, Клик на элемент с локатором ('xpath', "//li[contains(@class, 'sbis_ru-Region-Panel__item')]//span[contains(@title, 'Камчатский край')]"), base_page.py, click_element
+2024-11-12 19:40:45,920, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:40:45,922, DEBUG, Поиск элемента с локатором ('xpath', "//li[contains(@class, 'sbis_ru-Region-Panel__item')]//span[contains(@title, 'Камчатский край')]"), base_page.py, find_element
+2024-11-12 19:40:45,928, INFO, Элемент найден: ('xpath', "//li[contains(@class, 'sbis_ru-Region-Panel__item')]//span[contains(@title, 'Камчатский край')]"), base_page.py, find_element
+2024-11-12 19:40:46,149, INFO, Выполнен клик по элементу: ('xpath', "//li[contains(@class, 'sbis_ru-Region-Panel__item')]//span[contains(@title, 'Камчатский край')]"), base_page.py, click_element
+2024-11-12 19:40:46,149, DEBUG, Ожидание обновления региона на "Камчатский край", sbis_page.py, change_region
+2024-11-12 19:40:46,179, INFO, Регион успешно изменён на "Камчатский край", sbis_page.py, change_region
+2024-11-12 19:40:46,179, INFO, Получение региона, sbis_page.py, get_region
+2024-11-12 19:40:46,179, DEBUG, Поиск элемента с локатором ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:40:46,188, INFO, Элемент найден: ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:40:46,193, INFO, Получен регион Камчатский край, sbis_page.py, get_region
+2024-11-12 19:40:46,199, INFO, Получение первого партнера из списка, sbis_page.py, get_partner
+2024-11-12 19:40:46,210, INFO, Получен первый партнер из списка СБИС - Камчатка, sbis_page.py, get_partner

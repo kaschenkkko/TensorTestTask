@@ -1,0 +1,40 @@
+2024-11-12 19:41:51,439, INFO, Открытие страницы https://sbis.ru/, base_page.py, open
+2024-11-12 19:41:52,451, INFO, Переход к разделу "Контакты", sbis_page.py, click_contacts
+2024-11-12 19:41:52,451, DEBUG, Клик на элемент с локатором ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, click_element
+2024-11-12 19:41:52,451, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:41:53,011, DEBUG, Поиск элемента с локатором ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, find_element
+2024-11-12 19:41:53,025, INFO, Элемент найден: ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, find_element
+2024-11-12 19:41:54,037, INFO, Выполнен клик по элементу: ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, click_element
+2024-11-12 19:41:54,038, INFO, Выполнен переход к разделу "Контакты", sbis_page.py, click_contacts
+2024-11-12 19:41:54,038, INFO, Получение региона, sbis_page.py, get_region
+2024-11-12 19:41:54,038, DEBUG, Поиск элемента с локатором ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:41:54,197, INFO, Элемент найден: ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:41:54,217, INFO, Получен регион Тюменская обл., sbis_page.py, get_region
+2024-11-12 19:41:54,223, INFO, Получение первого партнера из списка, sbis_page.py, get_partner
+2024-11-12 19:41:54,385, INFO, Получен первый партнер из списка СБИС - Тюмень, sbis_page.py, get_partner
+2024-11-12 19:41:54,389, INFO, Открытие панели выбора региона, sbis_page.py, change_region
+2024-11-12 19:41:54,389, DEBUG, Клик на элемент с локатором ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, click_element
+2024-11-12 19:41:54,389, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:41:54,390, DEBUG, Поиск элемента с локатором ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:41:54,395, INFO, Элемент найден: ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:41:54,610, INFO, Выполнен клик по элементу: ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, click_element
+2024-11-12 19:41:55,124, INFO, Панель выбора региона загружена и готова к взаимодействию, sbis_page.py, change_region
+2024-11-12 19:41:55,124, DEBUG, Выбор необходимого региона, sbis_page.py, change_region
+2024-11-12 19:41:55,124, DEBUG, Клик на элемент с локатором ('xpath', "//h5[contains(@class, 'sbisru-h5 sbis_ru-Region-Panel')]"), base_page.py, click_element
+2024-11-12 19:41:55,125, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:41:55,126, DEBUG, Поиск элемента с локатором ('xpath', "//h5[contains(@class, 'sbisru-h5 sbis_ru-Region-Panel')]"), base_page.py, find_element
+2024-11-12 19:41:55,131, INFO, Элемент найден: ('xpath', "//h5[contains(@class, 'sbisru-h5 sbis_ru-Region-Panel')]"), base_page.py, find_element
+2024-11-12 19:41:55,345, INFO, Выполнен клик по элементу: ('xpath', "//h5[contains(@class, 'sbisru-h5 sbis_ru-Region-Panel')]"), base_page.py, click_element
+2024-11-12 19:41:55,345, DEBUG, Клик на элемент с локатором ('xpath', "//li[contains(@class, 'sbis_ru-Region-Panel__item')]//span[contains(@title, 'Камчатский край')]"), base_page.py, click_element
+2024-11-12 19:41:55,345, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:41:55,347, DEBUG, Поиск элемента с локатором ('xpath', "//li[contains(@class, 'sbis_ru-Region-Panel__item')]//span[contains(@title, 'Камчатский край')]"), base_page.py, find_element
+2024-11-12 19:41:55,353, INFO, Элемент найден: ('xpath', "//li[contains(@class, 'sbis_ru-Region-Panel__item')]//span[contains(@title, 'Камчатский край')]"), base_page.py, find_element
+2024-11-12 19:41:55,580, INFO, Выполнен клик по элементу: ('xpath', "//li[contains(@class, 'sbis_ru-Region-Panel__item')]//span[contains(@title, 'Камчатский край')]"), base_page.py, click_element
+2024-11-12 19:41:55,580, DEBUG, Ожидание обновления региона на "Камчатский край", sbis_page.py, change_region
+2024-11-12 19:41:55,587, INFO, Регион успешно изменён на "Камчатский край", sbis_page.py, change_region
+2024-11-12 19:41:55,587, INFO, Получение региона, sbis_page.py, get_region
+2024-11-12 19:41:55,587, DEBUG, Поиск элемента с локатором ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:41:55,593, INFO, Элемент найден: ('xpath', "//span[contains(@class, 'sbis_ru-Region-Chooser')]"), base_page.py, find_element
+2024-11-12 19:41:55,597, INFO, Получен регион Камчатский край, sbis_page.py, get_region
+2024-11-12 19:41:55,602, INFO, Получение первого партнера из списка, sbis_page.py, get_partner
+2024-11-12 19:41:55,611, INFO, Получен первый партнер из списка СБИС - Камчатка, sbis_page.py, get_partner

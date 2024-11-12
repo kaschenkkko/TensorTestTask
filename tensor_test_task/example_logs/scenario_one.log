@@ -1,0 +1,29 @@
+2024-11-12 19:41:23,006, INFO, Открытие страницы https://sbis.ru/, base_page.py, open
+2024-11-12 19:41:24,408, INFO, Переход к разделу "Контакты", sbis_page.py, click_contacts
+2024-11-12 19:41:24,408, DEBUG, Клик на элемент с локатором ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, click_element
+2024-11-12 19:41:24,408, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:41:24,445, DEBUG, Поиск элемента с локатором ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, find_element
+2024-11-12 19:41:24,475, INFO, Элемент найден: ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, find_element
+2024-11-12 19:41:25,717, INFO, Выполнен клик по элементу: ('xpath', "//div[contains(@class, 'sbisru-Footer')]//a[contains(@class, 'sbisru-Footer__link') and contains(text(), 'Контакты')]"), base_page.py, click_element
+2024-11-12 19:41:25,717, INFO, Выполнен переход к разделу "Контакты", sbis_page.py, click_contacts
+2024-11-12 19:41:25,718, INFO, Переход на сайт "tensor.ru" через клик по баннеру, sbis_page.py, click_tensor_banner
+2024-11-12 19:41:25,718, DEBUG, Клик на элемент с локатором ('xpath', "//a[contains(@class, 'sbisru-Contacts__logo-tensor') and contains(@title, 'tensor.ru')]"), base_page.py, click_element
+2024-11-12 19:41:25,718, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:41:25,732, DEBUG, Поиск элемента с локатором ('xpath', "//a[contains(@class, 'sbisru-Contacts__logo-tensor') and contains(@title, 'tensor.ru')]"), base_page.py, find_element
+2024-11-12 19:41:25,740, INFO, Элемент найден: ('xpath', "//a[contains(@class, 'sbisru-Contacts__logo-tensor') and contains(@title, 'tensor.ru')]"), base_page.py, find_element
+2024-11-12 19:41:25,770, INFO, Выполнен клик по элементу: ('xpath', "//a[contains(@class, 'sbisru-Contacts__logo-tensor') and contains(@title, 'tensor.ru')]"), base_page.py, click_element
+2024-11-12 19:41:25,776, INFO, Выполнен переход на сайт "tensor.ru", в новой вкладке, sbis_page.py, click_tensor_banner
+2024-11-12 19:41:25,776, INFO, Проверка наличия блока "Сила в людях", tensor_page.py, is_people_power_block_present
+2024-11-12 19:41:25,776, DEBUG, Проверка наличия блока "Сила в людях" в элементе ('xpath', "//p[contains(@class, 'tensor_ru-Index__card-title') and text()='Сила в людях']"), tensor_page.py, is_people_power_block_present
+2024-11-12 19:41:25,776, DEBUG, Поиск элемента с локатором ('xpath', "//p[contains(@class, 'tensor_ru-Index__card-title') and text()='Сила в людях']"), base_page.py, find_element
+2024-11-12 19:41:26,831, INFO, Элемент найден: ('xpath', "//p[contains(@class, 'tensor_ru-Index__card-title') and text()='Сила в людях']"), base_page.py, find_element
+2024-11-12 19:41:26,837, INFO, Блок "Сила в людях" присутствует в элементе ('xpath', "//p[contains(@class, 'tensor_ru-Index__card-title') and text()='Сила в людях']"), tensor_page.py, is_people_power_block_present
+2024-11-12 19:41:26,837, INFO, Переход в раздел "Подробнее", tensor_page.py, click_more_link
+2024-11-12 19:41:26,837, DEBUG, Клик на элемент с локатором ('xpath', "//a[contains(@class, 'tensor_ru-link tensor_ru-Index__link') and text()='Подробнее' and @href='/about']"), base_page.py, click_element
+2024-11-12 19:41:26,837, DEBUG, Ожидание исчезновения overlay, base_page.py, wait_for_no_overlay
+2024-11-12 19:41:26,842, DEBUG, Поиск элемента с локатором ('xpath', "//a[contains(@class, 'tensor_ru-link tensor_ru-Index__link') and text()='Подробнее' and @href='/about']"), base_page.py, find_element
+2024-11-12 19:41:26,862, INFO, Элемент найден: ('xpath', "//a[contains(@class, 'tensor_ru-link tensor_ru-Index__link') and text()='Подробнее' and @href='/about']"), base_page.py, find_element
+2024-11-12 19:41:28,289, INFO, Выполнен клик по элементу: ('xpath', "//a[contains(@class, 'tensor_ru-link tensor_ru-Index__link') and text()='Подробнее' and @href='/about']"), base_page.py, click_element
+2024-11-12 19:41:28,289, INFO, Выполнен переход в раздел "Подробнее", tensor_page.py, click_more_link
+2024-11-12 19:41:28,292, INFO, Проверка размеров изображений в разделе "Работаем", tensor_page.py, check_image_dimensions
+2024-11-12 19:41:28,309, INFO, Все изображения имеют одинаковый размер, tensor_page.py, check_image_dimensions
